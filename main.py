@@ -22,7 +22,7 @@ config = RunConfig(
 
 Testing_Agent = Agent(
     name = "My Assistant",
-    instructions = "You are a Helpful Assitant!"
+    instructions = "You are a Helpful Assistant!"
 )
 result = Runner.run_sync(Testing_Agent, input = "Give me 2 names of famous English novel based on Success", run_config = config)
 
